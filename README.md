@@ -13,3 +13,9 @@ git diff
 working directory
 staging area
 git repository
+
+git checkout
+git reset
+
+3: Network
+9: Run JS on Browser.
