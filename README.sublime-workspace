@@ -1,0 +1,386 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fi",
+				"fixed"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"colu",
+				"column"
+			],
+			[
+				"box-",
+				"box-sizing\tproperty"
+			],
+			[
+				"tr",
+				"translate()"
+			],
+			[
+				"capt",
+				"capitalize"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"gird-column",
+				"grid-column-gap\tproperty"
+			],
+			[
+				"grid-tem",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"backgrou",
+				"background-image\tproperty"
+			],
+			[
+				"background-",
+				"background-size\tproperty"
+			],
+			[
+				"font-",
+				"font-weight\tproperty"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"flex",
+				"flex-end"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"lis",
+				"list-style\tproperty"
+			],
+			[
+				"vi",
+				"visible"
+			],
+			[
+				"v",
+				"visibility\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"ba",
+				"background-size\tproperty"
+			],
+			[
+				"tran",
+				"transform\tproperty"
+			],
+			[
+				"flex-",
+				"flex-direction\tproperty"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"jus",
+				"justify-content\tproperty"
+			],
+			[
+				"b",
+				"border\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"co",
+				"contain"
+			],
+			[
+				"cur",
+				"cursor\tproperty"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"filterU",
+				"filterUserList"
+			],
+			[
+				"filter",
+				"filterUserList"
+			],
+			[
+				"user",
+				"userList"
+			],
+			[
+				"todo",
+				"todoList"
+			],
+			[
+				"char",
+				"charset\tAttr"
+			],
+			[
+				"con",
+				"const"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 179.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 299.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tam/Dev/mp3zing/css/layout.css",
+		"/Users/tam/Dev/mp3zing/css/com11.css",
+		"/Users/tam/Dev/mp3zing/components.html",
+		"/Users/tam/Dev/mp3zing/index.html",
+		"/Users/tam/Dev/mp3zing/css/com1.css",
+		"/Users/tam/Dev/mp3zing/css/com14.css",
+		"/Users/tam/Dev/mp3zing/css/com16.css",
+		"/Users/tam/Dev/mp3zing/css/style.css",
+		"/Users/tam/Dev/mp3zing/js/index.js",
+		"/Users/tam/Dev/mp3zing/css/com10.css",
+		"/Users/tam/Dev/mp3zing/css/com5.css",
+		"/Users/tam/Dev/mp3zing/css/com6.css",
+		"/Users/tam/Dev/mp3zing/css/com2.css",
+		"/Users/tam/Dev/mp3zing/css/com3.css",
+		"/Users/tam/Dev/mp3zing/css/com4.css",
+		"/Users/tam/Dev/mp3zing/css/com13.css",
+		"/Users/tam/Dev/mp3zing/css/com12.css",
+		"/Users/tam/Dev/mp3zing/zing-header.html",
+		"/Users/tam/Dev/mp3zing/css/com9.css",
+		"/Users/tam/Dev/example/html/bai10-a.html",
+		"/Users/tam/Dev/example/html/bai10.html",
+		"/Users/tam/Dev/example/html/index.js",
+		"/Users/tam/Dev/example/html/bai11.html",
+		"/Users/tam/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/tam/Dev/example/html/untitled.html",
+		"/Users/tam/Dev/example/database/untitled.js",
+		"/Users/tam/Dev/example/database/index.js",
+		"/Users/tam/Dev/example/promise/index-huongdan.js",
+		"/Users/tam/Dev/example/callback/index.js",
+		"/Users/tam/Dev/example/callback/doc",
+		"/Users/tam/Dev/example/huongdan.txt",
+		"/Users/tam/Dev/example/promise/ps2.js",
+		"/Users/tam/Dev/example/promise/ps.js",
+		"/Users/tam/Dev/example/promise/ps4.js",
+		"/Users/tam/Dev/example/promise/ps3.js",
+		"/Users/tam/Dev/example/promise/psread.js",
+		"/Users/tam/Dev/example/promise/index.js",
+		"/Users/tam/Dev/example/promise/a.txt",
+		"/Users/tam/Dev/example/promise/song2.txt",
+		"/Users/tam/Dev/example/promise/song1.txt",
+		"/Users/tam/Dev/example/json/data.json",
+		"/Users/tam/Dev/example/json/index.js",
+		"/Users/tam/Desktop/bootstrap/1.css",
+		"/Users/tam/Desktop/bootstrap/kenh14.html",
+		"/Users/tam/Downloads/bootraps thầy Việt/untitled folder/Tài liệu/2.5/1.css",
+		"/Users/tam/Library/Application Support/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/Users/tam/Downloads/bootraps thầy Việt/untitled folder/Tài liệu/Thành thạo Bootstrap qua 10 website và kiếm tiền từ công việc Freelancer/2.5/1.html",
+		"/Users/tam/Desktop/1.html",
+		"/Users/tam/Library/Application Support/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/Users/tam/Documents/DemoRN/Demo01/learning/liva.html",
+		"/Users/tam/Library/Application Support/Sublime Text 3/Packages/Babel/Babel.sublime-settings",
+		"/Users/tam/Documents/DemoRN/Demo01/learning/index.ios.js",
+		"/Users/tam/Documents/Files/code game/style.scss",
+		"/Users/tam/Documents/Files/code game/code.js",
+		"/Users/tam/Documents/Files/code game/index.html",
+		"/Users/tam/Documents/Sketch/_Plugin and Library/text-styles.json",
+		"/Users/tam/Documents/Files_mine/primary interface/untitled folder/PAGE ACCOUNT.svg",
+		"/Users/tam/Desktop/mycode/index.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "README.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 147.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
