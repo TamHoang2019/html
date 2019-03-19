@@ -19,10 +19,22 @@ B2: add new todo into todoList by appenChild prototype. -->
     <body>
         <h1>TODO list</h1>
         <ul id="todo-list">
-        	<li>Haircut</li>
+        	<!-- <li>Haircut</li>
         	<li>Lunch with Sora</li>
-        	<li>Dinner with Maria</li>
+        	<li>Dinner with Maria</li> -->
         </ul>
-        <!-- <script src="js/main.js"></script> -->
+		<script type="text/javascript">
+			var todoList = [
+				'Take shower',
+				'Have a walk',
+				'Go to bed'
+			];
+			var htmlList = document.getElementById('todo-list');
+			var content = todoList.map(function(item){
+				return '<li>' + item + '</li>';
+			});
+
+			htmlList.innerHTML = content.join('');
+		</script>
     </body>
 </html>
