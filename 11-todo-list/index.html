@@ -18,7 +18,7 @@ B2: add new todo into todoList by appenChild prototype. -->
     </head>
     <body>
     	<input id="new-item" type="text" />
-    	<button onclick="addItem()">Add</button>
+    	<button id="add-btn">Add</button>
         <h1>TODO list</h1>
         <ul id="todo-list">
         	<!-- <li>Haircut</li>
@@ -33,6 +33,9 @@ B2: add new todo into todoList by appenChild prototype. -->
 			];
 			render();
 
+			var addBtn = document.getElementById('add-btn');
+			//addBtn.onclick = addItem;
+			addBtn.addEventListener('click', addItem);
 			function addItem(){
 				// get value of the input
 				var input = document.getElementById('new-item');
