@@ -19,3 +19,10 @@ git reset
 
 3: Network
 9: Run JS on Browser.
+10: Document Object
+	1.Properties
+	document.body
+	document.head
+
+	2.Methods
+	document.getElementById()
