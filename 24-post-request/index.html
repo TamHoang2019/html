@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+    	<input id="new-item" type="text" />
+    	<button id="add-btn">Add</button>
+        <h1>TODO list</h1>
+        <ul id="todo-list">
+        	
+        </ul>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script type="text/javascript">
+			var url = 'http://localhost:9081/todos';
+			axios.get(url).then(function(res){
+				var items = res.data;
+				render(items);
+			});
+
+			var addBtn = document.getElementById('add-btn');
+			var input = document.getElementById('new-item');
+			//addBtn.onclick = addItem;
+			addBtn.addEventListener('click', addItem);
+			input.value = sessionStorage.getItem('draft');
+			input.addEventListener('change', updateSessionStorage);
+
+			function updateSessionStorage(){
+				sessionStorage.setItem('draft', input.value);
+			}
+			function addItem(){
+				// get value of the input
+				var newItem = {
+					content: input.value
+				};
+				// add to todoList array
+				axios.post(url, newItem).then(function(item){
+					console.log(item);
+				});
+				
+			}
+
+			function render(items){
+				var htmlList = document.getElementById('todo-list');
+				var contents = items.map(function(item){
+					return '<li>' + item.content + '</li>';
+				});
+
+				htmlList.innerHTML = contents.join('');
+			}
+
+			render([]);
+		</script>
+    </body>
+</html>
