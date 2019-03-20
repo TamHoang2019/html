@@ -26,12 +26,15 @@ B2: add new todo into todoList by appenChild prototype. -->
         	<li>Dinner with Maria</li> -->
         </ul>
 		<script type="text/javascript">
-			var todoList = [
-				'Take shower',
-				'Have a walk',
-				'Go to bed'
-			];
-			render();
+			var storageKey = 'todoList';
+			var dataString = localStorage.getItem(storageKey);
+
+			var todoList;
+			if(dataString){
+				todoList = JSON.parse(dataString);
+			} else {
+				todoList = [];
+			}
 
 			var addBtn = document.getElementById('add-btn');
 			//addBtn.onclick = addItem;
@@ -46,6 +49,8 @@ B2: add new todo into todoList by appenChild prototype. -->
 				render();
 				// clear input
 				input.value = '';
+				//store data
+				localStorage.setItem(storageKey, JSON.stringify(todoList));
 			}
 
 			function render(){
