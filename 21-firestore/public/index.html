@@ -51,8 +51,17 @@
         });
 
         var addBtn = document.getElementById('add-btn');
+        var htmlList = document.getElementById('todo-list');
           //addBtn.onclick = addItem;
         addBtn.addEventListener('click', addItem);
+        htmlList.addEventListener('click', onListClicked);
+
+        function onListClicked(e){
+          var button = e.target;
+          var i = parseInt(button.dataset.id);
+          todoList.splice(i, 1);
+          render();
+        }
 
         function addItem(){
           // get value of the input
@@ -71,10 +80,9 @@
         }
 
         function render(){
-          var htmlList = document.getElementById('todo-list');
-          var content = todoList.map(function(item){
+          var content = todoList.map(function(item, i){
             var data = item.data();
-            return '<li>' + data.content + '</li>';
+            return '<li>' + data.content + '  <button data-id="' + i + '">Delete</button>' + '</li>';
           });
 
           htmlList.innerHTML = content.join('');
