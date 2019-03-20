@@ -1,16 +1,4 @@
-<!-- HTMLElement class
-	.children
-	.textContent
-
-	.appendChild()
-	.remove() 
-
-EventTarget <- Node <- Element <- HTMLElement
--->
-<!-- Add newTodo
-B1: create new element with li and textContent
-B2: add new todo into todoList by appenChild prototype. -->
-
+<!-- debug, call stack, break point -->
 <!doctype html>
 <html>
     <head>
@@ -20,16 +8,14 @@ B2: add new todo into todoList by appenChild prototype. -->
     	<input id="new-item" type="text" />
     	<button id="add-btn">Add</button>
         <h1>TODO list</h1>
-        <ul id="todo-list">
-        	<!-- <li>Haircut</li>
-        	<li>Lunch with Sora</li>
-        	<li>Dinner with Maria</li> -->
+        <ul id="todo-list">	
         </ul>
 		<script type="text/javascript">
 			var storageKey = 'todoList';
 			var dataString = localStorage.getItem(storageKey);
 
 			var todoList;
+
 			if(dataString){
 				todoList = JSON.parse(dataString);
 			} else {
@@ -37,17 +23,12 @@ B2: add new todo into todoList by appenChild prototype. -->
 			}
 
 			var addBtn = document.getElementById('add-btn');
-			var input = document.getElementById('new-item');
 			//addBtn.onclick = addItem;
 			addBtn.addEventListener('click', addItem);
-			input.value = sessionStorage.getItem('draft');
-			input.addEventListener('change', updateSessionStorage);
 
-			function updateSessionStorage(){
-				sessionStorage.setItem('draft', input.value);
-			}
 			function addItem(){
 				// get value of the input
+				var input = document.getElementById('new-item');
 				var newItem = input.value;
 				// add to todoList array
 				todoList.push(newItem);
@@ -67,6 +48,8 @@ B2: add new todo into todoList by appenChild prototype. -->
 
 				htmlList.innerHTML = content.join('');
 			}
+			
+			render();
 		</script>
     </body>
 </html>
