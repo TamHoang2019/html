@@ -13,7 +13,7 @@
         	<li>Lunch with Sora</li>
         	<li>Dinner with Maria</li> -->
         </ul>
-         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 		<script type="text/javascript">
 			var url = 'http://localhost:9081/todos';
 			axios.get(url).then(function(res){
@@ -52,6 +52,8 @@
 
 				htmlList.innerHTML = contents.join('');
 			}
+
+			render([]);
 		</script>
     </body>
 </html>

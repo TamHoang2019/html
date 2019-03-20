@@ -30,4 +30,8 @@ git reset
 18: AJAX
  install json server
  start json-server with db.json
- 
+
+
+21: firestore
+ collection: todos
+ document: content = go to shool
