@@ -37,11 +37,17 @@ B2: add new todo into todoList by appenChild prototype. -->
 			}
 
 			var addBtn = document.getElementById('add-btn');
+			var input = document.getElementById('new-item');
 			//addBtn.onclick = addItem;
 			addBtn.addEventListener('click', addItem);
+			input.value = sessionStorage.getItem('draft');
+			input.addEventListener('change', updateSessionStorage);
+
+			function updateSessionStorage(){
+				sessionStorage.setItem('draft', input.value);
+			}
 			function addItem(){
 				// get value of the input
-				var input = document.getElementById('new-item');
 				var newItem = input.value;
 				// add to todoList array
 				todoList.push(newItem);
