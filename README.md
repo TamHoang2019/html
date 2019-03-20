@@ -26,3 +26,8 @@ git reset
 
 	2.Methods
 	document.getElementById()
+
+18: AJAX
+ install json server
+ start json-server with db.json
+ 
