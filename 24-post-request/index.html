@@ -5,8 +5,7 @@
 
     </head>
     <body>
-    	<input id="new-item" type="text" />
-    	<button id="add-btn">Add</button>
+    	<a href="./new-item.html">New Todo</a>
         <h1>TODO list</h1>
         <ul id="todo-list">
         	
@@ -19,32 +18,25 @@
 				render(items);
 			});
 
-			var addBtn = document.getElementById('add-btn');
-			var input = document.getElementById('new-item');
-			//addBtn.onclick = addItem;
-			addBtn.addEventListener('click', addItem);
-			input.value = sessionStorage.getItem('draft');
-			input.addEventListener('change', updateSessionStorage);
+			var htmlList = document.getElementById('todo-list');
 
-			function updateSessionStorage(){
-				sessionStorage.setItem('draft', input.value);
-			}
-			function addItem(){
-				// get value of the input
-				var newItem = {
-					content: input.value
-				};
-				// add to todoList array
-				axios.post(url, newItem).then(function(item){
-					console.log(item);
-				});
-				
+			htmlList.addEventListener('click', onListClicked);
+
+			function onListClicked(e){
+				var button = e.target;
+				var i = parseInt(button.dataset.id);
+				var type = button.dataset.type;
+				var urlTarget = './edit-item.html#' + i;
+				if(type == "edit"){
+					window.location.href = urlTarget;
+				} else {
+					console.log(type);
+				}
 			}
 
 			function render(items){
-				var htmlList = document.getElementById('todo-list');
 				var contents = items.map(function(item){
-					return '<li>' + item.content + '</li>';
+					return '<li>' + item.content + '  <button data-type = "edit" data-id='+ item.id +'>edit</button>' + '  <button data-type = "delete" data-id='+ item.id +'>delete</button>' +'</li>';
 				});
 
 				htmlList.innerHTML = contents.join('');
